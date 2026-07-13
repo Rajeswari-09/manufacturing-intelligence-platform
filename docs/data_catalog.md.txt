@@ -1,0 +1,64 @@
+# Manufacturing Intelligence Platform - Data Catalog
+
+## Overview
+
+This document describes all datasets used in the Manufacturing Intelligence Platform.
+
+---
+
+# Dataset 1: AI4I 2020 Predictive Maintenance
+
+## Domain
+Predictive Maintenance
+
+## Source
+UCI Machine Learning Repository
+https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+
+(Kaggle mirror may also be used.)
+
+## File Name
+
+ai4i2020.csv
+
+## Purpose
+
+Predict machine failures using machine sensor readings.
+
+## Number of Records
+
+10,000
+
+## Number of Features
+
+14
+
+## Target Variable
+
+Machine Failure
+
+## Important Features
+
+| Feature | Description |
+|----------|-------------|
+| UDI | Unique record ID |
+| Product ID | Product identifier |
+| Type | Product type |
+| Air temperature | Air temperature (K) |
+| Process temperature | Process temperature (K) |
+| Rotational speed | RPM |
+| Torque | Torque (Nm) |
+| Tool wear | Tool wear (minutes) |
+| Machine failure | Target variable |
+
+## Business Use Case
+
+Predict machine failures before they occur to reduce downtime and maintenance costs.
+
+## Machine Learning Task
+
+Classification
+
+## Status
+
+Downloaded
